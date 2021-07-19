@@ -65,9 +65,6 @@ class MyApp extends StatelessWidget {
                             color: Colors.teal.shade900,
                           ))),
                 ),
-                // Container(
-                //   height: 10.0,
-                // ),
                 Card(
                     margin:
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
@@ -85,12 +82,8 @@ class MyApp extends StatelessWidget {
                           color: Colors.teal.shade900,
                         ),
                       ),
-                    )
-                ),
-            ]
-          )
-        )
-      ),
+                    )),
+              ]))),
     );
   }
 }
